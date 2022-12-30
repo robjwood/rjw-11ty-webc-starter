@@ -1,0 +1,31 @@
+﻿/* FOOTER
+===========================================
+
+===========================================*/
+
+.c-footer {
+  background-color: var(--grey-900);
+  position: relative;
+
+  /* These are needed to enable the footer to be 'sticky' using flexbox - https://css-tricks.com/couple-takes-sticky-footer/ */
+  /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  flex-shrink: 0; 
+
+  p {
+    color: var(--grey-100);
+    font-size: var(--font-size-s);
+  }
+
+  a {
+    box-shadow: none;
+    color: var(--colour-primary-500);
+    text-decoration: underline;
+  }
+}
+
+
+
+a:hover {
+  text-decoration: none;
+}
+

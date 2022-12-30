@@ -1,0 +1,15 @@
+/* LINKS
+===========================================
+===========================================*/
+
+a {
+  color: blue;
+}
+
+  a:visited {
+    color: purple;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }

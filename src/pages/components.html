@@ -1,0 +1,120 @@
+---
+title: Components
+---
+<style>
+  section {
+    border-bottom: 1px solid var(--grey-200);
+    padding-bottom: 56px;
+    margin-bottom: 56px;
+  }
+
+  .c-colour {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(var(--spacing-3xl), 1fr));
+    /*
+    display: flex;
+    */
+    gap: var(--spacing-xl);
+  }
+
+    .c-colour__swatch {
+      border-radius: var(--border-radius-xs);
+      width: 100%;
+      height: var(--spacing-2xl);
+    }
+    
+    .c-colour__description {
+      color: var(--grey-900);
+      font-size: var(--font-size-xs);
+      font-weight: bold;
+      text-align: center;
+      margin: 0;
+    }
+
+</style>
+
+<section class="flow">
+  <h2>Colours</h2>
+  <div class="c-colour">
+    <div>
+      <div class="c-colour__swatch" style="background-color: var(--white);">
+      </div>
+      <p class="c-colour__description">white</p>
+    </div>
+
+    <div>
+      <div class="c-colour__swatch" style="background-color: var(--grey-100);">
+      </div>
+      <p class="c-colour__description">grey-100</p>
+    </div>
+
+    <div>
+      <div class="c-colour__swatch" style="background-color: var(--grey-200);">
+      </div>
+      <p class="c-colour__description">grey-200</p>
+    </div>
+
+    <div>
+      <div class="c-colour__swatch" style="background-color: var(--grey-300);">
+      </div>
+      <p class="c-colour__description">grey-300</p>
+    </div>
+
+    <div>
+      <div class="c-colour__swatch" style="background-color: var(--grey-400);">
+      </div>
+      <p class="c-colour__description">grey-400</p>
+    </div>
+
+    <div>
+      <div class="c-colour__swatch" style="background-color: var(--grey-500);">
+      </div>
+      <p class="c-colour__description">grey-500</p>
+    </div>
+
+    <div>
+      <div class="c-colour__swatch" style="background-color: var(--grey-600);">
+      </div>
+      <p class="c-colour__description">grey-600</p>
+    </div>
+
+    <div>
+      <div class="c-colour__swatch" style="background-color: var(--grey-700);">
+      </div>
+      <p class="c-colour__description">grey-700</p>
+    </div>
+
+    <div>
+      <div class="c-colour__swatch" style="background-color: var(--grey-800);">
+      </div>
+      <p class="c-colour__description">grey-800</p>
+    </div>
+
+    <div>
+      <div class="c-colour__swatch" style="background-color: var(--grey-900);">
+      </div>
+      <p class="c-colour__description">grey-900</p>
+    </div>
+
+    <div>
+      <div class="c-colour__swatch" style="background-color: var(--black);">
+      </div>
+      <p class="c-colour__description">black</p>
+    </div>
+</section>
+
+<section class="flow">
+  <h2>Button</h2>
+  <button type="button" name="button" class="c-btn">Button</button>
+  <input type="button" name="input" value="Input Button" class="c-btn">
+  <input type="submit" name="submit" value="Submit Button" class="c-btn">
+  <input type="reset" name="reset" value="Reset Button" class="c-btn">
+</section>
+
+<section class="flow">
+  <h2>Card</h2>
+  <div class="c-card">
+    <h3 class="c-card__title">Card Title</h3>
+    <p>Card content</p>
+  </div>
+</section>

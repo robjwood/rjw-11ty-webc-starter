@@ -1,0 +1,42 @@
+/* BOX
+===========================================
+===========================================*/
+
+
+
+[class^='o-box'] {
+  padding: var(--spacing-l);
+}
+
+
+  /* Size variants */
+  .o-box--0 {
+    padding: 0;
+  }
+
+  .o-box--xs {
+    padding: var(--spacing-xs);
+  }
+
+  .o-box--s {
+    padding: var(--spacing-s);
+  }
+
+  .o-box--m {
+    padding: var(--spacing-m);
+  }
+
+  .o-box--l {
+    padding: var(--spacing-l);
+  }
+
+  .o-box--xl {
+    padding: var(--spacing-xl);
+  }
+
+
+
+  /* Border variants */
+  .o-box--borderless {
+    border-color: transparent;
+  }

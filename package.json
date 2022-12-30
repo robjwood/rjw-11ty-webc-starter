@@ -1,0 +1,36 @@
+{
+  "name": "rjw-template",
+  "version": "1.0.0",
+  "description": "Basic starter site",
+  "main": "index.html",
+  "scripts": {
+    "watch:sass": "sass  --no-source-map --watch src/scss:public/css",
+    "watch:eleventy": "eleventy --serve",
+    "build:sass": "sass  --no-source-map src/scss:public/css",
+    "build:eleventy": "eleventy",
+    "postbuild": "postcss public/css/*.css -u autoprefixer cssnano -r --no-map",
+    "start": "npm-run-all build:sass --parallel watch:*",
+    "build": "npm-run-all build:sass build:eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robjwood/rjw-template.git"
+  },
+  "author": "Rob",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "autoprefixer": "^10.4.0",
+    "clean-css": "^5.3.1",
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.0.10",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.2",
+    "sass": "^1.43.4"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "not IE 11"
+  ]
+}

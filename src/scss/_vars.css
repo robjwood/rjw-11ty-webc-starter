@@ -1,0 +1,79 @@
+/* VARIABLES
+===========================================
+
+===========================================*/
+
+
+:root {
+  --spacing-2xs: 0.1rem;  
+  --spacing-xs: 0.25rem;    
+  --spacing-s: 0.5rem;      
+  --spacing-m: 1rem;      
+  --spacing-l: 1.5rem;      
+  --spacing-xl: 2rem;    
+  --spacing-2xl: 3rem;  
+  --spacing-3xl: 4rem;  
+
+  /* Border radius */
+  --border-radius-xs: var(--spacing-xs);
+  --border-radius-s: var(--spacing-s);
+  --border-radius: var(--spacing-m);
+
+
+  --font-base: "system-ui", serif;
+  --font-accent: "system-ui", serif;
+
+  --measure: 68ch;
+
+
+  /* Font sizes */
+  --ratio: 1.2;
+
+  --font-size-xs:   calc(var(--font-size-s) / var(--ratio));
+  --font-size-s:    calc(var(--font-size-m) / var(--ratio));
+
+  --font-size-m:    1rem;
+
+  --font-size-l:    calc(var(--font-size-m) * var(--ratio));
+  --font-size-xl:   calc(var(--font-size-l) * var(--ratio));
+  --font-size-2xl:  calc(var(--font-size-xl) * var(--ratio));
+  --font-size-3xl:  calc(var(--font-size-2xl) * var(--ratio));
+  --font-size-4xl:  calc(var(--font-size-3xl) * var(--ratio));
+  --font-size-5xl:  calc(var(--font-size-4xl) * var(--ratio));
+
+
+  /* Line heights */
+  --line-height-none:   1;
+  --line-height-xs:     1.1;
+
+  --line-height-normal: 1.5;
+  
+    /* Flow space */
+  --flow-space: 1.5em;
+
+  /* Greyscale */
+  --white:    hsla(0,0%,100%,1);
+
+  /*
+  --grey-100:  hsla(0, 0%, 96%,1);
+  --grey-300:  hsla(0,0%,30%,1);
+  --grey-500: hsla(0,0%,50%,1);
+  --grey-700:  hsla(0, 0%, 70%,1);
+  --grey-900:  hsla(0, 0%, 90%,1);
+  */
+
+
+  /*
+  */
+  --grey-100:   hsla(214,10%,96%,1);  
+  --grey-200:   hsla(214,10%,90%,1);
+  --grey-300:   hsla(214,10%,75%,1);
+  --grey-400:   hsla(214,10%,65%,1);
+  --grey-500:   hsla(214,10%,50%,1);
+  --grey-600:   hsla(214,10%,45%,1);
+  --grey-700:   hsla(214,10%,40%,1);
+  --grey-800:   hsla(214,10%,30%,1);
+  --grey-900:   hsla(214,15%,20%,1);
+
+  --black:    hsla(0,0%,0%,1);       
+}
