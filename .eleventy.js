@@ -1,4 +1,5 @@
-const CleanCSS = require("clean-css");
+const pluginWebc = require("@11ty/eleventy-plugin-webc");
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 
 module.exports = function (eleventyConfig) {
   // Watch targets
@@ -7,17 +8,21 @@ module.exports = function (eleventyConfig) {
   // Copy the 'images' directory 
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/fonts");
-  // eleventyConfig.addPassthroughCopy("src/css");
 
-  // Filters
-  eleventyConfig.addFilter("cssmin", function(code) {
-    return new CleanCSS({}).minify(code).styles;
+  // Plugins
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
+  eleventyConfig.addPlugin(pluginWebc, {
+    components: "src/components/**/*.webc",
   });
 
   return {
     dir: {
-      input: "src",
+      input: "src/pages",
+			includes: "../components",
+			layouts: "../layouts",
+			data: "../data",
       output: "public",
     },
+    htmlTemplateEngine: "webc"
   };
 };

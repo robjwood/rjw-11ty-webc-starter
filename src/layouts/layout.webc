@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title webc:is="meta-title">TEST</title>
+	<style @html="getCss(page.url)" webc:keep></style>
+	<link rel="stylesheet" href="/css/main.css" webc:keep />
+</head>
+<body>
+  <rjw-nav></rjw-nav>
+	<main>
+		<article class="o-box o-centre" @html="this.content">
+		</article>
+	</main>
+</body>
+</html>

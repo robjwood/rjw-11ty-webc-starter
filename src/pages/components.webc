@@ -105,6 +105,7 @@ title: Components
 
 <section class="flow">
   <h2>Button</h2>
+  <rw-button href="/test/">Test button</rw-button>
   <button type="button" name="button" class="c-btn">Button</button>
   <input type="button" name="input" value="Input Button" class="c-btn">
   <input type="submit" name="submit" value="Submit Button" class="c-btn">
@@ -113,8 +114,8 @@ title: Components
 
 <section class="flow">
   <h2>Card</h2>
-  <div class="c-card">
-    <h3 class="c-card__title">Card Title</h3>
+  <rw-card>
+    <h2 slot="title">Card Title</h2>
     <p>Card content</p>
-  </div>
+  </rw-card>
 </section>

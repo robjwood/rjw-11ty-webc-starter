@@ -1,0 +1,15 @@
+<script webc:type="render" webc:is="template">
+  function () {
+    let title;
+
+    if (this.title) {
+      // If the current page has a title, put it before the site title
+      title = `${this.title} — ${this.meta.title}`;
+    } else {
+      // If the current page has no title, just put the site title
+      title = this.meta.title;
+    }
+
+    return `<title>${title}</title>`;
+  }
+</script>

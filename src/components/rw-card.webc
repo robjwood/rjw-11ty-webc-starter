@@ -1,0 +1,18 @@
+<div webc:root webc:keep class="c-card">
+  <slot name="title"></slot>
+  <slot>Card</slot>
+</div>
+
+<style webc:scoped>
+  :host {
+    background-color: var(--white);
+    padding: var(--spacing-m) var(--spacing-m);
+    border: var(--spacing-xs) solid var(--black);
+    border-radius: var(--border-radius-s);
+  }
+
+  .c-card .card__title {
+    font-size: var(--font-size-m);
+    font-weight: 500;
+  }
+</style>

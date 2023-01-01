@@ -1,0 +1,23 @@
+<a :href="href" webc:root webc:keep class="c-button">
+  <slot>Button</slot>
+</a>
+
+<style webc:scoped webc:keep>
+  :host {
+    background-color: var(--black);
+    border-radius: var(--border-radius-s);
+    color: var(--white);
+    display: inline-block;
+    font-size: var(--font-size-m);
+    padding: var(--spacing-s) var(--spacing-m);
+    text-decoration: none;
+  }
+  
+  :host:visited {
+    color: var(--white);
+  }
+
+  :host:hover {
+    text-decoration: underline;
+  }
+</style>

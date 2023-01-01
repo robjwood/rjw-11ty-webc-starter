@@ -12,10 +12,6 @@ module.exports = {
       text: 'Components',
       url: '/components/'
     },
-    {
-      text: 'Section',
-      url: '/section/'
-    }
   ],
   bottom: [
     {

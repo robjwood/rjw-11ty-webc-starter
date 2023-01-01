@@ -1,0 +1,14 @@
+<nav class="background-color:black">
+  <ul class="o-box o-cluster o-centre c-nav-primary" role="list">
+    <script webc:type="render" webc:is="template">
+      function () {
+        return this.navigation.top
+          .map((item) => `<li>
+              <a href="${item.url}">${item.text}</a>
+            </li>`)
+          .join("");
+        // TODO Get the active link state
+      }
+    </script> 
+  </ul>
+</nav>

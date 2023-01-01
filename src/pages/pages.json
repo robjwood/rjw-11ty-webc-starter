@@ -1,5 +1,3 @@
 {
-  "layout": "page.njk",
-  "tags": "pages",
-  "permalink": "/{{ page.fileSlug }}/"
+  "layout": "layout.webc"
 }
