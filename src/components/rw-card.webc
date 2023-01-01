@@ -1,17 +1,51 @@
-<div webc:root webc:keep class="c-card">
-  <slot name="title"></slot>
-  <slot>Card</slot>
-</div>
+<section webc:root webc:keep>
+  <slot name="img"></slot>
+  <div class="body flow">
+    <slot>Card</slot>
+    
+  </div>
+  <footer><slot name="cta"></slot></footer>
+</section>
 
 <style webc:scoped>
-  :host {
-    background-color: var(--white);
-    padding: var(--spacing-m) var(--spacing-m);
-    border: var(--spacing-xs) solid var(--black);
-    border-radius: var(--border-radius-s);
+  div {
+    --flow-space: var(--spacing-s);
   }
 
-  .c-card .card__title {
+  :host {
+    background-color: var(--white);
+    border: var(--spacing-2xs) solid var(--black);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .body {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    padding: var(--spacing-m) var(--spacing-m);
+  }
+
+  button {
+    margin-top: auto;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    margin: var(--spacing-m) var(--spacing-m);
+  }
+
+  /* If the footer has not content, hide it. */
+  footer:empty {
+    display: none;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .card__title {
     font-size: var(--font-size-m);
     font-weight: 500;
   }

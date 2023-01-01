@@ -1,0 +1,42 @@
+<nav webc:root webc:keep>
+  <ul class="o-box o-cluster o-centre">
+    <script webc:type="js" webc:is="template">
+      this.navigation.top
+      // If the current page is the selected, add the aria-current attribute to the link
+      .map((item) => {
+        if (item.url === this.page.url) {
+          return { ...item, current: true };
+        }
+        return item;
+      })
+      .map((item) => `<li>
+        <a href="${item.url}" ${item.current ? 'aria-current="page"' : ""}>${item.text}</a>
+      </li>`)
+      .join("");
+    </script> 
+  </ul>
+</nav>
+
+<style webc:scoped>
+:host {
+  background-color: var(--black);
+}
+
+  :host ul {
+    list-style-type: none;
+  }
+  
+  :host a,
+  :host a:visited {
+    color: var(--white);
+    text-decoration: none;
+  }
+
+  :host a:hover {
+    text-decoration: underline;
+  }
+
+  :host [aria-current="page"] {
+    font-weight: bold;
+  }    
+</style>

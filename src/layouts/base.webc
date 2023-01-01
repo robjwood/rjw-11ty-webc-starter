@@ -2,7 +2,7 @@
 layout: root.webc
 ---
 
-<rjw-nav></rjw-nav>
+<rw-nav></rw-nav>
 <main>
 	<article class="o-box o-centre">
 		<h1 @html="this.title"></h1>

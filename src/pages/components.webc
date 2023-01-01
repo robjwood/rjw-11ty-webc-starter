@@ -2,7 +2,7 @@
 title: Components
 ---
 <style>
-  section {
+  article > section {
     border-bottom: 1px solid var(--grey-200);
     padding-bottom: 56px;
     margin-bottom: 56px;
@@ -105,11 +105,9 @@ title: Components
 
 <section class="flow">
   <h2>Button</h2>
-  <rw-button href="/test/">Test button</rw-button>
-  <button type="button" name="button" class="c-btn">Button</button>
-  <input type="button" name="input" value="Input Button" class="c-btn">
-  <input type="submit" name="submit" value="Submit Button" class="c-btn">
-  <input type="reset" name="reset" value="Reset Button" class="c-btn">
+  <rw-button type="button">Test button</rw-button>
+  <rw-button type="submit">Submit button</rw-button>
+  <rw-button type="reset">Reset button</rw-button>
 </section>
 
 <section class="flow">

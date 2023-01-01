@@ -1,0 +1,11 @@
+<div webc:root webc:keep>
+  <slot>Content</slot>
+</div>
+
+<style webc:scoped webc:keep>
+  :host {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: var(--spacing-l);
+  }
+</style>

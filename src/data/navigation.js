@@ -12,12 +12,12 @@ module.exports = {
       text: 'Components',
       url: '/components/'
     },
+    {
+      text: 'Patterns',
+      url: '/patterns/'
+    },
   ],
   bottom: [
-    {
-      text: 'Imprint',
-      url: '/imprint/'
-    },
     {
       text: 'Privacy',
       url: '/privacy/'

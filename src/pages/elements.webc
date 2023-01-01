@@ -216,9 +216,6 @@ pre {
       <label><input type="checkbox">Or check me out</label>
     </fieldset>
 
-    <button type="button" name="button" class="c-btn">Button</button>
-    <input type="button" name="input" value="Input Button" class="c-btn">
-    <input type="submit" name="submit" value="Submit Button" class="c-btn">
-    <input type="reset" name="reset" value="Reset Button" class="c-btn">
+    <rw-button type="button">Test button</rw-button>
   </form>
 </section>
