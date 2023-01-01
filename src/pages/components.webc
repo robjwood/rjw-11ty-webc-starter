@@ -25,8 +25,7 @@ title: Components
     
     .c-colour__description {
       color: var(--grey-900);
-      font-size: var(--font-size-xs);
-      font-weight: bold;
+      font-size: var(--font-size-s);
       text-align: center;
       margin: 0;
     }
@@ -113,7 +112,7 @@ title: Components
 <section class="flow">
   <h2>Card</h2>
   <rw-card>
-    <h2 slot="title">Card Title</h2>
-    <p>Card content</p>
+    <h2>Card Title</h2>
+    <p>Simple card. Could also contain an image or button using <code>slots</code>.</p>
   </rw-card>
 </section>

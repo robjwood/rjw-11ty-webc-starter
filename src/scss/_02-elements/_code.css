@@ -3,8 +3,9 @@
 ===========================================*/
 
 code {
-  background-color: var(--grey-90);
+  background-color: var(--grey-100);
   border-radius: var(--spacing-xs);
   font-size: var(--font-size-m);
   padding: var(--spacing-2xs) var(--spacing-xs) var(--spacing-xs);
+  vertical-align: bottom;
 }
