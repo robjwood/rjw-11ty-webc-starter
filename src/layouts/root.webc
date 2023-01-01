@@ -7,11 +7,5 @@
 	<style @html="getCss(page.url)" webc:keep></style>
 	<link rel="stylesheet" href="/css/main.css" webc:keep />
 </head>
-<body>
-  <rjw-nav></rjw-nav>
-	<main>
-		<article class="o-box o-centre" @html="this.content">
-		</article>
-	</main>
-</body>
+<body @html="this.content" webc:nokeep></body>
 </html>

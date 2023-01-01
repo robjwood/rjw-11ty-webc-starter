@@ -1,0 +1,11 @@
+---
+layout: root.webc
+---
+
+<rjw-nav></rjw-nav>
+<main>
+	<article class="o-box o-centre">
+		<h1 @html="this.title"></h1>
+		<template @html="this.content" webc:nokeep></template>
+	</article>
+</main>
