@@ -3,8 +3,12 @@
   <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title webc:is="meta-title">TEST</title>
+	<title webc:is="meta-title"></title>
 	<style @html="getCss(page.url)" webc:keep></style>
+
+	<link rel="preload" href="/fonts/Atkinson-Hyperlegible-Regular-102a.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/Atkinson-Hyperlegible-Bold-102a.woff2" as="font" type="font/woff2" crossorigin>
+
 	<link rel="stylesheet" href="/css/main.css" webc:keep />
 </head>
 <body @html="this.content" webc:nokeep></body>

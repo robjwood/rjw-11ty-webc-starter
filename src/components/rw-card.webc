@@ -1,6 +1,6 @@
 <section webc:root webc:keep>
   <slot name="img"></slot>
-  <div class="body flow">
+  <div class="o-box--m body flow">
     <slot>Card</slot>
     
   </div>
@@ -23,7 +23,6 @@
     display: flex;
     flex: 1 0 auto;
     flex-direction: column;
-    padding: var(--spacing-m) var(--spacing-m);
   }
 
   button {

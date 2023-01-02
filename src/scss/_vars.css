@@ -20,10 +20,10 @@
   --border-radius: var(--spacing-m);
 
 
-  --font-base: "system-ui", serif;
-  --font-accent: "system-ui", serif;
+  --font-base: 'Atkinson Hyperlegible Regular', sans-serif;
+  --font-accent: 'Atkinson Hyperlegible Bold', sans-serif;
 
-  --measure: 70ch;
+  --measure: 65ch;
 
 
   /* Font sizes (generate from https://www.fluid-type-scale.com */

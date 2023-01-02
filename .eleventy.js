@@ -5,9 +5,8 @@ module.exports = function (eleventyConfig) {
   // Watch targets
   eleventyConfig.addWatchTarget("./src/scss/");
   
-  // Copy the 'images' directory 
-  eleventyConfig.addPassthroughCopy("src/images");
-  eleventyConfig.addPassthroughCopy("src/fonts");
+  eleventyConfig.addPassthroughCopy("./src/images");
+  eleventyConfig.addPassthroughCopy("./src/fonts/");
 
   // Plugins
   eleventyConfig.addPlugin(EleventyRenderPlugin);
