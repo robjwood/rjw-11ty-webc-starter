@@ -5,8 +5,9 @@ module.exports = function (eleventyConfig) {
   // Watch targets
   eleventyConfig.addWatchTarget("./src/scss/");
   
-  eleventyConfig.addPassthroughCopy("./src/images");
-  eleventyConfig.addPassthroughCopy("./src/fonts/");
+	// FIXME: The passthrough behavior in the dev server doesn't seem to be working, so for now we'll go back to the copy behavior.
+	eleventyConfig.setServerPassthroughCopyBehavior("copy");
+  eleventyConfig.addPassthroughCopy({"src/fonts": "fonts"});
 
   // Plugins
   eleventyConfig.addPlugin(EleventyRenderPlugin);
