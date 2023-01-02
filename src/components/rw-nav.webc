@@ -1,5 +1,5 @@
 <nav webc:root webc:keep>
-  <ul class="o-box o-cluster o-centre">
+  <ul class="o-box o-cluster o-centre o-wrapper">
     <script webc:type="js" webc:is="template">
       this.navigation.top
       // If the current page is the selected, add the aria-current attribute to the link

@@ -15,28 +15,28 @@ title: Patterns
   <rw-grid>
     <rw-card>
       <img slot="img" src="https://picsum.photos/id/47/400/225" alt="Placeholder image">
-      <h2>Card title</h2>
+      <h2 class="font-size:xl">Card title</h2>
       <p>Commodo ut laborum fugiat aliqua eiusmod voluptate pariatur.</p>
       <rw-button slot="cta" type="button">Read more</rw-button>
     </rw-card>
   
     <rw-card>
       <img slot="img" src="https://picsum.photos/id/51/400/225" alt="Placeholder image">
-      <h2>Card titles could be over two lines</h2>
+      <h2 class="font-size:xl">Card titles could be over two lines</h2>
       <p>Cupidatat tempor sint mollit in tempor ut fugiat excepteur laborum labore.</p>
       <rw-button slot="cta" type="button">Read more</rw-button>
     </rw-card>
   
     <rw-card>
       <img slot="img" src="https://picsum.photos/id/58/400/225" alt="Placeholder image">
-      <h2>Another card title</h2>
+      <h2 class="font-size:xl">Another card title</h2>
       <p>Amet esse sunt ex officia ea ipsum veniam ad elit duis.</p>
       <rw-button slot="cta" type="button">Read more</rw-button>
     </rw-card>
   
     <rw-card>
       <img slot="img" src="https://picsum.photos/id/61/400/225" alt="Placeholder image">
-      <h2>What, another card title?</h2>
+      <h2 class="font-size:xl">What, another card title?</h2>
       <p>Eu dolore labore ad occaecat minim in minim ad ea commodo excepteur ullamco.</p>
       <rw-button slot="cta" type="button">Read more</rw-button>
     </rw-card>

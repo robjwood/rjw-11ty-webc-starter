@@ -39,7 +39,7 @@ body {
   background-color: hsl(0, 0%, 100%);
   font-family: var(--font-base);
   font-weight: 400;
-  font-size: clamp(var(--font-size-m), 1.8vw, var(--font-size-l));
+  font-size: var(--font-size-base);
   line-height: 1.5;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
@@ -99,4 +99,8 @@ img[height] {  /* [1] */
 figcaption {
   font-size: 0.9rem;
   font-style: italic;
+}
+
+p {
+  max-inline-size: var(--measure);
 }

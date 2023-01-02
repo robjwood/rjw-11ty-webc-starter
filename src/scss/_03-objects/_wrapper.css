@@ -1,8 +1,7 @@
-/* CENTRE
+/* WRAPPER
 ===========================================
 ===========================================*/
 
-.o-centre {
-  box-sizing: content-box;
-  margin-inline: auto;
+.o-wrapper {
+  max-inline-size: 65rem;
 }

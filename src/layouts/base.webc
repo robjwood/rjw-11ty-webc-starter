@@ -4,7 +4,7 @@ layout: root.webc
 
 <rw-nav></rw-nav>
 <main>
-	<article class="o-box o-centre">
+	<article class="o-box o-centre o-wrapper">
 		<h1 @html="this.title"></h1>
 		<template @html="this.content" webc:nokeep></template>
 	</article>
