@@ -11,7 +11,7 @@ title: Components
   .c-colour {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(calc(var(--spacing-2xl) * 2), 1fr));
-    gap: var(--spacing-l);
+    gap: var(--spacing-xl);
   }
 
     .c-colour__swatch {
