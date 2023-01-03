@@ -20,22 +20,22 @@
   --border-radius: var(--spacing-m);
 
 
-  --font-base: 'Atkinson Hyperlegible Regular', sans-serif;
-  --font-accent: 'Atkinson Hyperlegible Bold', sans-serif;
+  --font-base: 'Atkinson Hyperlegible', sans-serif;
+  --font-accent: 'Atkinson Hyperlegible', sans-serif;
 
   --measure: 65ch;
 
 
-  /* Font sizes (generate from https://www.fluid-type-scale.com */
-  --font-size-s:    clamp(0.89rem, 0.09vw + 0.87rem, 0.94rem);
-  --font-size-base: clamp(1rem, 0.23vw + 0.94rem, 1.13rem);
-  --font-size-l:    clamp(1.13rem, 0.41vw + 1.02rem, 1.35rem);
-  --font-size-xl:   clamp(1.27rem, 0.64vw + 1.1rem, 1.62rem);
-  --font-size-2xl:  clamp(1.42rem, 0.95vw + 1.19rem, 1.94rem);
-  --font-size-3xl:  clamp(1.6rem, 1.33vw + 1.27rem, 2.33rem);
-  --font-size-4xl:  clamp(1.8rem, 1.81vw + 1.35rem, 2.8rem);  
+  /* Font sizes (generated from https://www.fluid-type-scale.com/calculate?minFontSize=20&minWidth=400&minRatio=1.25&maxFontSize=22&maxWidth=1280&maxRatio=1.333&steps=s%2Cbase%2Cl%2Cxl%2C2xl&baseStep=base&prefix=font-size&decimals=2&useRems=on&remValue=16&previewFont=Inter */
 
-
+  --font-size-s: clamp(1rem, 0.06vw + 0.99rem, 1.03rem);
+  --font-size-base: clamp(1.25rem, 0.23vw + 1.19rem, 1.38rem);
+  --font-size-l: clamp(1.56rem, 0.49vw + 1.44rem, 1.83rem);
+  --font-size-xl: clamp(1.95rem, 0.89vw + 1.73rem, 2.44rem);
+  --font-size-2xl: clamp(2.44rem, 1.48vw + 2.07rem, 3.26rem);
+  
+  
+  
   /* Line heights */
   --line-height-none:   1;
   --line-height-xs:     1.1;

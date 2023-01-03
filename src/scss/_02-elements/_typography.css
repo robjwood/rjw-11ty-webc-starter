@@ -5,7 +5,7 @@ TYPOGRAPHY
 */
 
 @font-face {
-  font-family: 'Atkinson Hyperlegible Regular';
+  font-family: 'Atkinson Hyperlegible';
   font-style: normal;
   font-weight: 400;
   src:
@@ -15,7 +15,7 @@ TYPOGRAPHY
 }
 
 @font-face {
-  font-family: 'Atkinson Hyperlegible Bold';
+  font-family: 'Atkinson Hyperlegible';
   font-style: normal;
   font-weight: 700;
   src:

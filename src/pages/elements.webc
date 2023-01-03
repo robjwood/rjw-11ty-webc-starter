@@ -4,12 +4,9 @@ title: Elements
 <style>section {border-bottom: 1px solid lightgray; padding-bottom: 40px;}</style>
 <!-- HTML5 Kitchen based on a previous effort by @dbox -->
 <section class="flow">
-  <h1>h1 HTML5 Kitchen Sink</h1>
-  <h2>h2 Back in my quaint <a href='#'>garden</a></h2>
-  <h3>h3 Jaunty <a href='#'>zinnias</a> vie with flaunting phlox</h3>
-  <h4>h4 Five or six big jet planes zoomed quickly by the new tower.</h4>
-  <h5>h5 Expect skilled signwriters to use many jazzy, quaint old alphabets effectively.</h5>
-  <h6>h6 Pack my box with five dozen liquor jugs.</h6>
+  <h2>Heading 2 in my quaint <a href='#'>garden</a></h2>
+  <h3>Heading 3 <a href='#'>zinnias</a> vie with flaunting phlox</h3>
+  <h4>Heading 4 - Five or six big jet planes zoomed quickly by the new tower</h4>
 </section>
 
 <section class="flow">
@@ -27,8 +24,8 @@ title: Elements
   </blockquote>
   <blockquote>
     <p>This is a multi-line blockquote with a cite reference. People think focus means saying yes to the thing you've got to focus on. But that's not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I'm actually as proud of the things we haven't done as the things I have done. Innovation is saying no to 1,000 things.
-    <cite>Steve Jobs - Apple Worldwide Developers' Conference, 1997</cite>
     </p>
+    <cite>Steve Jobs - Apple Worldwide Developers' Conference, 1997</cite>
   </blockquote>
 </section>
 

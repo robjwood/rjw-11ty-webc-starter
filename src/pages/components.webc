@@ -10,17 +10,14 @@ title: Components
 
   .c-colour {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(var(--spacing-3xl), 1fr));
-    /*
-    display: flex;
-    */
-    gap: var(--spacing-xl);
+    grid-template-columns: repeat(auto-fit, minmax(calc(var(--spacing-2xl) * 2), 1fr));
+    gap: var(--spacing-l);
   }
 
     .c-colour__swatch {
       border-radius: var(--border-radius-xs);
       width: 100%;
-      height: var(--spacing-2xl);
+      height: var(--spacing-3xl);
     }
     
     .c-colour__description {
@@ -112,7 +109,7 @@ title: Components
 <section class="flow">
   <h2>Card</h2>
   <rw-card>
-    <h2>Card Title</h2>
+    <h2 class="font-size:l">Card Title</h2>
     <p>Simple card. Could also contain an image or button using <code>slots</code>.</p>
   </rw-card>
 </section>

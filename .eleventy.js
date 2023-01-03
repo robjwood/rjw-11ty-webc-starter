@@ -8,6 +8,7 @@ module.exports = function (eleventyConfig) {
 	// FIXME: The passthrough behavior in the dev server doesn't seem to be working, so for now we'll go back to the copy behavior.
 	eleventyConfig.setServerPassthroughCopyBehavior("copy");
   eleventyConfig.addPassthroughCopy({"src/fonts": "fonts"});
+  eleventyConfig.addPassthroughCopy({"src/images": "images"});
 
   // Plugins
   eleventyConfig.addPlugin(EleventyRenderPlugin);

@@ -11,5 +11,5 @@
 
 	<link rel="stylesheet" href="/css/main.css" webc:keep />
 </head>
-<body @html="this.content" webc:nokeep></body>
+<body class="flow" @html="content" webc:nokeep></body>
 </html>
