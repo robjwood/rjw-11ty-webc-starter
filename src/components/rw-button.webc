@@ -19,6 +19,7 @@
 
   :host:hover {
     background-color: var(--grey-800);
+    cursor: pointer;
   }
 
   :host:focus {

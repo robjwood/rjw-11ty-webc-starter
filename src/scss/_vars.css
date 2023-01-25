@@ -26,16 +26,19 @@
   --measure: 65ch;
 
 
-  /* Font sizes (generated from https://www.fluid-type-scale.com/calculate?minFontSize=20&minWidth=400&minRatio=1.25&maxFontSize=22&maxWidth=1280&maxRatio=1.333&steps=s%2Cbase%2Cl%2Cxl%2C2xl&baseStep=base&prefix=font-size&decimals=2&useRems=on&remValue=16&previewFont=Inter */
+  /* Font sizes (generated from https://www.fluid-type-scale.com/calculate?minFontSize=20&minWidth=400&minRatio=1.125&maxFontSize=22&maxWidth=1280&maxRatio=1.25&steps=s%2Cbase%2Cl%2Cxl%2C2xl%2C3xl&baseStep=base&prefix=font-size&decimals=2&useRems=on&remValue=16&previewFont=Inter */
 
-  --font-size-s: clamp(1rem, 0.06vw + 0.99rem, 1.03rem);
+  --font-size-s: clamp(1.11rem, -0.02vw + 1.12rem, 1.1rem);
   --font-size-base: clamp(1.25rem, 0.23vw + 1.19rem, 1.38rem);
-  --font-size-l: clamp(1.56rem, 0.49vw + 1.44rem, 1.83rem);
-  --font-size-xl: clamp(1.95rem, 0.89vw + 1.73rem, 2.44rem);
-  --font-size-2xl: clamp(2.44rem, 1.48vw + 2.07rem, 3.26rem);
+  --font-size-l: clamp(1.41rem, 0.57vw + 1.26rem, 1.72rem);
+  --font-size-xl: clamp(1.58rem, 1.03vw + 1.32rem, 2.15rem);
+  --font-size-2xl: clamp(1.78rem, 1.65vw + 1.37rem, 2.69rem);
+  --font-size-3xl: clamp(2rem, 2.46vw + 1.39rem, 3.36rem);
   
   
-  
+
+
+
   /* Line heights */
   --line-height-none:   1;
   --line-height-xs:     1.1;
